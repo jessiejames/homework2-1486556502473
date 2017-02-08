@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: homework2
+  host: homework2
+  disk_quota: 1024M
+  services:
+  - homework2-cloudantNoSQLDB
+  - homework2-iotf-service
